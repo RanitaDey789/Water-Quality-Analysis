@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 
-This project aims to analyze water quality data and predict whether a water sample is **drinkable** or **not** using various Machine Learning models. The dataset includes key parameters like pH, sulfate, trihalomethanes, and more. The final model can help government bodies and laboratories quickly assess water safety, especially in areas with limited testing resources.
+This project aims to analyze water quality data and predict whether a water sample is **drinkable** or **not** using various Machine Learning models. The dataset includes key parameters like pH, Temperature and more. The final model can help government bodies and laboratories quickly assess water safety, especially in areas with limited testing resources.
 
 ---
 
