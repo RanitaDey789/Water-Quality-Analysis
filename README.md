@@ -92,6 +92,7 @@ weighted avg       0.98      0.98      0.98       273
 
 
 ## 🌐 Flask Web App
+
 A lightweight web application was developed using Flask. Users can:
 
 Enter water sample parameters through a form.
@@ -102,10 +103,26 @@ Download prediction result as a PDF report.
 
 ## ▶️ How to Run
 
+## How to Run locally:
+
 Install required packages:
 pip install -r requirements.txt
 Run the Flask App:  python app.py
 Open in browser:   http://127.0.0.1:5000
+
+## How to Run using Docker (Docker Setup)
+
+### 📦 Build the Docker Image
+
+docker build -t water-quality-ml .
+
+### 🚀 Run the Container
+
+docker run -p 5000:5000 water-quality-ml
+
+### 🧪 Access the App
+Open your browser at:
+http://localhost:5000
 
 ## 🏆 Results
 Highest model accuracy: 98%
